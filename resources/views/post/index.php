@@ -10,10 +10,14 @@
 <body>
     <h1>This is Index</h1>
     <div>
-        <form action="/posts", method="post">
-            <input type="text", name="title">
+        <form action="/", method="post">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="content">Content:</label><br>
+            <input type="text" id="content" name="content">
             <input type="submit">
         </form>
+
     </div>
     <div>
         <?php
